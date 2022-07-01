@@ -4,7 +4,7 @@
 
 - title: forum
   url: /forum/
-  external: false
+  external: true
 
 - title: archive
   url: /archive/

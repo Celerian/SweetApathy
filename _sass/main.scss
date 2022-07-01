@@ -1,16 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Fraunces:ital,wght@0,100;0,400;0,700;0,900;1,100;1,400;1,700;1,900&display=swap');
 // Fonts preferences
+$sans-family: "et-book", "Palatino", "Times New Roman", serif;
+$mono-family: Victor Mono, monospace;
+
+/*// Fonts preferences
 $sans-family: Roboto, sans-serif;
-$mono-family: Consolas, monospace;
-$base-font-size: 16px;
+$mono-family: Consolas, monospace;*/
+$base-font-size: 20px;
 $medium-font-size: $base-font-size * 0.938;
 $small-font-size: $base-font-size * 0.875;
 $base-line-height: 1.85;
 
 // Font weight
-// $light-weight: 300; // uncomment if necessary
-$normal-weight: 400;
+$light-weight: 100; // uncomment if necessary
+$normal-weight: 500;
 $bold-weight: 700;
-// $black-weight: 900; // uncomment if necessary
+$black-weight: 900; // uncomment if necessary
 
 //Light Colors
 $text-base-color: #434648;
@@ -24,9 +29,9 @@ $gray: #6b7886;
 $white: #fff;
 
 // Dark Colors
-$dark-text-base-color: #c7bebe;
-$dark-text-link-blue: #ff5277;
-$dark-text-link-blue-active: #ff2957;
+$dark-text-base-color: #3399cc;
+$dark-text-link-blue: #bccbdc;
+$dark-text-link-blue-active: #597795;
 
 $dark-black: #131418;
 $dark-white: #eaeaea;
